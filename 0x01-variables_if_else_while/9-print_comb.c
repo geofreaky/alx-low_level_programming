@@ -5,14 +5,14 @@
  * Return: end program
  */
 int main(void)
-{	int x = '0';
-
-	while (x <= '9')
-	{	putchar(x);
-	}
-	if (x != '9')
-	{	putchar(',');
+{	int num;
+	for (num = 0; num <= 9; num++)
+	{	putchar((num % 10) + '0');
+		if (num == 9)
+		continue;
+		putchar(',');
 		putchar(' ');
 	}
-	x++;
+	putchar('\n');
+	return (0);
 }
