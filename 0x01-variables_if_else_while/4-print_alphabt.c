@@ -5,13 +5,14 @@
  * Return: end the program
  */
 int main(void)
+{	char c;
 
-{	char letter;
-	for (letter = 'a'; letter <= 'z'; letter++)
-	{	if (letter != 'e' && letter != 'q')
-		putchar(letter);
+	for (c = 'a'; c <= 'z'; ++c)
+	{	if (c != 'e' && c != 'q')
+		{	putchar(c);
+		}
 	}
-	putchar('\n');
+
+	printf("\n");
 	return (0);
-	;
 }
