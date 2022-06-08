@@ -5,19 +5,23 @@
  * Return: none - void function
  */
 void times_table(void)
-{	int col = 0;
+{
+	int col = 0;
 	int row = 0;
 	int units = 0;
 	int tens = 0;
 	int n = 0;
 
 	while (row < 10)
-	{	while (col < 10)
-		{	n = col * row;
+	{
+		while (col < 10)
+		{
+			n = col * row;
 			units = n % 10;
 			tens = (n - units) / 10;
 			if (col > 0)
-			{	_putchar(' ');
+			{
+				_putchar(' ');
 				(tens <= 0) ? _putchar(' ') : _putchar(tens + '0');
 			}
 			_putchar(units + '0');
