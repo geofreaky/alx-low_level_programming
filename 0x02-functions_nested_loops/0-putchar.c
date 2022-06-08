@@ -6,13 +6,13 @@
  */
 int main(void)
 {
-	char string[8] = "_putchar";
+	char string[8] = "putchar";
 	int n = 0;
 
 	while (n < 8)
-	{	_putchar(string[n]);
+	{	putchar(string[n]);
 		++n;
 	}
-	_putchar(10);
+	putchar(10);
 	return (0);
 }
