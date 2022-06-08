@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <stdio.h>>
 /**
  * main - Entry point
  *
@@ -24,7 +24,7 @@ int main(void)
 	j2 = j % 1000000000;
 	k1 = k / 1000000000;
 	k2 = k % 1000000000;
-	
+
 
 	for (i = 92; i < 99; ++i)
 	{
@@ -32,10 +32,9 @@ int main(void)
 		printf("%lu", k2 % 1000000000);
 		k1 = k1 + j1;
 		j1 = k1 - j1;
-		k2 = k2 + j2
+		k2 = k2 + j2;
 		j2 = k2 - j2;
 	}
-printf("\n");
+	printf("\n");
 
-return (0);
-}
+	return (0);
