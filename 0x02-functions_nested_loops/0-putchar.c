@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "main.h"
 /**
  * main - main function
@@ -14,7 +13,6 @@ int main(void)
 	{	_putchar(string[n]);
 		++n;
 	}
-
 	_putchar(10);
 	return (0);
 }
