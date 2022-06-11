@@ -7,8 +7,7 @@
  * Return: return value
  */
 void print_triangle(int size)
-{
-	int col = 0;
+{	int col = 0;
 	int row = 0;
 	int t;
 
