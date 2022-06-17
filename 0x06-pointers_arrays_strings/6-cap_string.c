@@ -6,7 +6,7 @@
  *
  * Return: the resulting string
  */
-car *cap_string(char *s)
+char *cap_string(char *s)
 {
 	int x = 0, y;
 	char special[13] = {9, 10, 32, 33, 34, 40, 41,
@@ -18,7 +18,6 @@ car *cap_string(char *s)
 		{
 			if (x == 0 && s[x] >= 97 && s[x] <= 122)
 				s[x] -= 32;
-			if (s[x - 1] == special[y])
 			{
 				if ((*(s + x) >= 97) &&  (*(s + x) <= 122))
 					*(s + x) -= 32;
