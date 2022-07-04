@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- *str_concat - function  that returns a pointer
+ * *str_concat - function  that returns a pointer
  * to the content of 2 strings
  * @s1: Parameter with a string
  * @s2: Parameter with a string
@@ -34,7 +34,7 @@ char *str_concat(char *s1, char *s2)
 	{
 		while (i1 < n1)
 		{
-			a[i] = s2[i2];
+			a[i] = s1[i1];
 			i1++;
 			i++;
 		}
