@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- *_strdup - function  that returns a pointer
+ * *_strdup - function  that returns a pointer
  * to a newly allocated space in memory
  *
  * @str: Parameter with the string
